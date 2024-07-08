@@ -1,0 +1,54 @@
+Assignment 4
+
+Concept of a Virtual Environment in Python:
+A virtual environment in Python is an isolated environment that allows you to manage dependencies for different projects independently. This isolation 
+ensures that the libraries and packages required for one project do not interfere with those required for another. It is particularly important in data 
+science projects due to the frequent use of multiple libraries and dependencies that may have different versions. By using virtual environments, you can 
+maintain consistency and avoid conflicts between dependencies, ensuring that your projects run smoothly and reliably.
+
+
+Creating and Using a Virtual Environment:
+Step-by-Step Guide
+
+1. Create a Virtual Environment:
+   Open a terminal or command prompt and navigate to your project directory. Use the following command to create a virtual environment named `ml_env`:
+
+   ```sh
+   python -m venv ml_env
+   ```
+
+2. Activate the Virtual Environment:
+   - On Windows:
+     ```sh
+     .\ml_env\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```sh
+     source ml_env/bin/activate
+     ```
+
+3. Install a Python Library:
+   After activating the virtual environment, install a library, for example, NumPy, using pip:
+
+   ```sh
+   pip install numpy
+   ```
+
+4. Write and Run a Python Script:
+   Create a Python script that imports NumPy and performs a basic operation like creating an array. Save the script as `test_numpy.py`.
+
+   ```python
+   import numpy as np
+
+   # Create a 1D NumPy array
+   array = np.array([1, 2, 3, 4, 5])
+   
+   print("NumPy Array:", array)
+   ```
+
+   To run the script, execute the following command in your terminal:
+
+   ```sh
+   python test_numpy.py
+   ```
+
