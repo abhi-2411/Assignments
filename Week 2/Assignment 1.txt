@@ -1,0 +1,113 @@
+Assignment 1
+
+
+GeeksforGeeks Python Tutorial
+
+The GeeksforGeeks Python Tutorial covers a comprehensive range of topics, starting from basic concepts to more advanced features. Key topics include:
+
+- Introduction to Python: Basics of Python, installation, and running a simple program.
+- Data Types and Variables: Different data types (strings, lists, tuples, dictionaries, sets) and how to use them.
+- Operators: Arithmetic, relational, logical, bitwise, and other operators.
+- Control Flow: Conditional statements (if-else), loops (for, while), and control statements (break, continue, pass).
+- Functions: Defining functions, lambda functions, and recursion.
+- Modules and Packages: Importing modules, creating packages.
+- File Handling: Reading from and writing to files.
+- Exception Handling: Try-except blocks, raising exceptions.
+- Object-Oriented Programming: Classes, objects, inheritance, polymorphism, encapsulation.
+- Data Structures: Lists, stacks, queues, linked lists, trees, graphs.
+- *Advanced Topics: Decorators, generators, regular expressions, list comprehensions.
+
+
+Helpful Code Example:
+
+```python
+# Function to check if a number is prime
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+print(is_prime(11))  # Output: True
+```
+
+Real Python
+
+Real Python stands out as a platform for Python learning due to its high-quality, in-depth tutorials, and articles written by experienced Python developers. The platform offers a blend of written tutorials, video courses, and quizzes, making it interactive and engaging.
+
+Summary of an Informative Tutorial:
+One particularly informative tutorial is "Understanding the Python `yield` Keyword". It explains the concept of generators and how `yield` works to create an iterator. The tutorial provides clear examples, such as generating a sequence of Fibonacci numbers.
+
+Code Example from the Tutorial:
+
+```python
+def fibonacci(n):
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a + b
+
+for num in fibonacci(10):
+    print(num)  # Output: 0 1 1 2 3 5 8
+```
+
+TutorialsPoint Python Tutorial
+
+The TutorialsPoint Python Tutorial starts with the basics and moves towards more advanced topics, offering a clear and structured learning path.
+
+Summary of Python Basics:
+The basics section includes:
+- Introduction:** Overview of Python's features and history.
+- Installation:** Steps to install Python.
+- First Program:** Writing and executing a simple Python script.
+- Basic Syntax:** Understanding Python's syntax and conventions.
+- Variables and Data Types:** Declaring variables and using different data types.
+
+Unique Insight:
+One unique aspect is the extensive use of practical examples and exercises that encourage hands-on learning. 
+
+W3Schools Python Tutorial
+
+W3Schools offers a beginner-friendly Python tutorial with interactive examples that enhance learning through practice.
+
+**Summary:**
+The tutorial covers:
+- Introduction:** Basics of Python and setup.
+- Syntax:** Understanding Python syntax.
+- Variables:** Declaring and using variables.
+- Data Types:** Different data types and their usage.
+- Operators:** Various operators in Python.
+- Control Structures:** If statements, loops, and control statements.
+- Functions:** Defining and using functions.
+
+**Interactive Examples:**
+W3Schools provides interactive code examples that allow learners to edit and run code directly within the browser, reinforcing learning through immediate feedback.
+
+### Programiz Python Programming
+
+Programiz offers a structured approach to teaching Python with a focus on simplicity and practical coding exercises.
+
+Summary:
+The tutorial includes:
+- Introduction:** Basics of Python, features, and installation.
+- Basic Syntax:** Understanding the syntax and conventions.
+- Variables and Data Types:** Declaring variables and using different data types.
+- Operators:** Using various operators.
+- Control Flow:** If statements, loops, and control statements.
+- Functions:** Defining and using functions, lambda functions.
+
+Practical Coding Exercises:
+Programiz provides practical exercises, such as:
+```python
+# Exercise: Write a function to find the factorial of a number
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))  # Output: 120
+```
+

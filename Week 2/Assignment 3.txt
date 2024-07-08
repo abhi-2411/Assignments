@@ -1,0 +1,97 @@
+Assignment 3
+
+
+Lists
+
+Key Points from Python Official Documentation
+Lists in Python are created by placing elements inside square brackets, separated by commas. They are mutable, meaning their elements can be changed. You can access elements using indexing, with the first element at index 0. Slicing allows you to access a range of elements. Common list methods include `append()`, `extend()`, `insert()`, `remove()`, `pop()`, `clear()`, `index()`, `count()`, `sort()`, and `reverse()`. List comprehensions provide a concise way to create lists.
+
+Key Points from GeeksforGeeks
+Nested lists are lists within lists, which allow for multi-dimensional arrays. List comprehensions can include conditions to filter items. There's a distinction between shallow and deep copying a list, where deep copying creates a new list with copies of the original elements, avoiding unintended modifications.
+
+Code Example
+Here’s an example demonstrating list creation, manipulation, and comprehensions:
+
+```python
+# Creating and manipulating a list
+fruits = ['apple', 'banana', 'cherry']
+fruits.append('orange')
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']
+
+# List comprehensions
+squares = [x**2 for x in range(10)]
+print(squares)  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# Nested lists
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(nested_list[1][2])  # Output: 6
+```
+
+Functions
+
+Key Points from Python Official Documentation
+Functions are defined using the `def` keyword followed by the function name and parentheses containing optional parameters. Functions may return values using the `return` statement. Default argument values can be specified, and functions can accept arbitrary arguments using `*args` and `**kwargs`. Lambda expressions create small anonymous functions.
+
+Key Points from Real Python
+Functions promote code reuse and modularity. They can be nested, and closures can be used to retain state. Decorators allow for extending the behavior of functions. Recursion enables functions to call themselves, solving problems by breaking them down into simpler subproblems.
+
+Code Example
+Here’s an example demonstrating various aspects of functions:
+
+```python
+# Defining and using a function
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))  # Output: Hello, Alice!
+
+# Default arguments
+def power(base, exponent=2):
+    return base ** exponent
+
+print(power(3))  # Output: 9
+print(power(3, 3))  # Output: 27
+
+# Lambda function
+square = lambda x: x ** 2
+print(square(5))  # Output: 25
+
+# Using *args and **kwargs
+def func(*args, **kwargs):
+    print("args:", args)
+    print("kwargs:", kwargs)
+
+func(1, 2, 3, a=4, b=5)  # Output: args: (1, 2, 3), kwargs: {'a': 4, 'b': 5}
+```
+
+Python Modules
+
+Key Points from Python Official Documentation
+Modules are files containing Python code. They can define functions, classes, and variables, and can also include runnable code. Importing a module allows you to use its functions and classes in your code. Standard library modules provide a wide range of functionalities. Custom modules can be created for specific tasks.
+
+Key Points from TutorialsPoint
+Modules can be imported using the `import` statement. Specific attributes or functions can be imported from a module using the `from ... import ...` syntax. The `__name__` attribute helps determine if a module is being run as the main program or imported elsewhere. Packages are collections of modules in directories that give a structure to the module namespace.
+
+Code Example
+Here’s an example demonstrating module creation and usage:
+
+```python
+# math_module.py
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+# Using the module
+import math_module
+
+print(math_module.add(5, 3))  # Output: 8
+print(math_module.subtract(5, 3))  # Output: 2
+
+# Using from ... import ...
+from math_module import add
+
+print(add(10, 5))  # Output: 15
+```
+

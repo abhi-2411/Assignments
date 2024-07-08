@@ -1,0 +1,45 @@
+Assignment 2
+
+
+Summary of Python Official Documentation
+
+The Python Official Documentation offers a comprehensive tutorial covering Python’s core concepts and features, providing a structured approach to learning the language.
+
+The tutorial begins with an introduction that highlights Python’s simplicity, readability, and extensive standard library, making it suitable for both beginners and experienced programmers. It explains how to start the Python interpreter, either through the command line or an integrated development environment (IDE), and covers basic usage, script execution, and interactive mode.
+
+In the section "An Informal Introduction to Python," the documentation provides a quick overview of Python’s syntax and semantics. It includes basic operations with numbers and strings, list operations and indexing, basic input and output functions, and control flow tools like conditional statements (if, else, elif) and looping constructs (for, while).
+
+The "More Control Flow Tools" section delves deeper into control flow, explaining how to define and call functions, set default argument values, use keyword arguments for clarity, create lambda expressions for short operations, and use list comprehensions for creating lists concisely.
+
+Data structures are thoroughly covered, detailing Python’s built-in types such as lists, dictionaries, tuples, sequences, and sets. Each type's creation, manipulation, and usage are explained.
+
+Modules are introduced with explanations on importing and using standard and custom modules. This section also covers Python’s extensive standard library, demonstrating how to leverage it effectively.
+
+Input and output capabilities are detailed, including reading and writing files, using various file methods, and formatting output using different techniques.
+
+Error handling and exceptions are discussed, covering syntax errors, handling different types of exceptions with try, except, and finally blocks, and manually raising exceptions.
+
+Object-oriented programming in Python is introduced through classes, detailing how to define and instantiate classes, the differences between class and instance variables, implementing inheritance, and creating custom iterators and generators.
+
+The standard library section offers an overview of modules for interacting with the operating system, pattern matching with glob, parsing command line arguments, using regular expressions, and handling internet protocols.
+
+The tutorial also explains managing project dependencies using virtual environments and packages, providing instructions on how to use the Python Packaging Index (PyPI) to find and install packages.
+
+### Code Example from the Documentation
+
+Here's a simple code example demonstrating basic Python functionality:
+
+```python
+# Function to check if a number is prime
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+print(is_prime(11))  # Output: True
+```
+
+This example illustrates defining a function, using control flow with if statements and loops, and basic I/O with print statements. The official documentation covers these topics in depth, providing a solid foundation for learning Python.
