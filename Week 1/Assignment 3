@@ -1,0 +1,32 @@
+Assignment 3
+
+
+Why I Chose VS Code as My Python IDE
+
+I chose Visual Studio Code (VS Code) as my Python Integrated Development Environment (IDE) because of its versatility, robust features, and extensive 
+support for Python development. VS Code is known for its lightweight nature while still offering powerful functionalities that cater to a wide range 
+of programming needs, especially in data science and machine learning.
+
+
+Key Features and Benefits:
+
+1. Extensibility: VS Code supports a wide array of extensions, particularly the Python extension by Microsoft, which enhances the development experience 
+with features like IntelliSense, linting, debugging, and Jupyter notebook integration.
+2. Integrated Terminal: The built-in terminal allows seamless execution of Python scripts and installation of packages without leaving the editor.
+3. Code Editing Features: VS Code provides excellent code completion, syntax highlighting, and error checking, which improve coding efficiency and accuracy.
+4. Version Control Integration: Built-in Git support makes version control straightforward, which is crucial for collaborative projects in data science and
+   machine learning.
+5. Jupyter Notebooks: The ability to open and edit Jupyter notebooks directly within VS Code combines the best of interactive and script-based development.
+
+
+Simple Python Program in VS Code
+
+Here’s a simple Python program that prints "Hello, Python!" to demonstrate how easy it is to get started with VS Code:
+
+```python
+print("Hello, Python!")
+```
+
+To run this program, open VS Code, create a new file with a `.py` extension, paste the code, and run it using the integrated terminal or the run button 
+provided by the Python extension.
+
