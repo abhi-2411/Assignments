@@ -1,0 +1,48 @@
+Assignmet 2
+
+
+1. VS Code is a versatile code editor with robust support for Python development through extensions. It offers features like code completion, 
+debugging, and integrated terminal, making it suitable for various programming tasks, including web development and scripting.
+2. Jupyter Notebook is an open-source web application that allows you to create and share documents containing live code, equations, visualizations, 
+and narrative text. It's particularly popular for data analysis, machine learning, and exploratory programming due to its interactive nature.
+
+
+
+Here's a brief guide on how to install each:
+
+Installing VS Code:
+
+1. Download VS Code:
+   - Go to the [Visual Studio Code website](https://code.visualstudio.com/).
+   - Click on the download button for your operating system (Windows, macOS, or Linux).
+
+2. Install VS Code:
+   - Run the downloaded installer and follow the installation prompts.
+   - Launch VS Code after the installation is complete.
+
+3. Set Up Python Extension:
+   - Open VS Code.
+   - Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window.
+   - Search for the "Python" extension by Microsoft and install it.
+   - After installing, configure the Python interpreter by opening a Python file or creating a new one and selecting the appropriate Python interpreter.
+
+
+Installing Jupyter Notebook:
+
+1. Install Python:
+   - Ensure Python is installed on your computer. You can download it from the [official Python website](https://www.python.org/).
+
+2. Install Jupyter Notebook:
+   - Open a terminal or command prompt.
+   - Install Jupyter Notebook using pip:
+     ```
+     pip install notebook
+     ```
+
+3. Launch Jupyter Notebook:
+   - After installation, you can launch Jupyter Notebook by running the following command in your terminal or command prompt:
+     ```
+     jupyter notebook
+     ```
+   - This will open Jupyter Notebook in your default web browser, and you can start creating and running notebooks.
+
